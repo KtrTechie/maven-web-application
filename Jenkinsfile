@@ -6,11 +6,11 @@ tools{
 maven 'maven3.9.11'
 
 }
-
+/*
 triggers{
 pollSCM('* * * * *')
 }
-
+*/
 options{
 timestamps()
 buildDiscarder(logRotator(artifactDaysToKeepStr: '', artifactNumToKeepStr: '5', daysToKeepStr: '', numToKeepStr: '5'))
