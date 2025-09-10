@@ -1,3 +1,5 @@
+node ('node1')
+{
 pipeline{
 
 agent any
